@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:hint="请输入要发送的消息"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:hint="请输入要发送的次数"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendMsg"
+        android:text="发送自定义消息"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#333333"
+        android:layout_height="5dp"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendLickTheDog"
+        android:text="舔狗语录"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendGushi"
+        android:text="经典古诗"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendWeiboHot"
+        android:text="微博热搜"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendTodayNews"
+        android:text="今日新闻"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendMoyu"
+        android:text="励志"/>
+
+    <Button
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendHistoryToday"
+        android:text="历史上的今天"/>
+
+</LinearLayout>
